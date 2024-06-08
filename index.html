@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Stress Levels </title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+       <h1>Stress Levels </h1>
+       <div id="input-container">
+           <label for="stress-level">On a scale of 1 to 10, how stressed are you?</label>
+           <input type="number" id="stress-level" min="1" max="10" required>
+           <br>
+           <button onclick="submitForm()">Submit</button>
+       </div>
+       <div id="result-container" class="hidden">
+           <h2>Result</h2>
+           <p id="result-stress-level"></p>
+           <p id="result-coping-mechanism"></p>
+       </div>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
