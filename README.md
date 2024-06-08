@@ -1,0 +1,1 @@
+Stress Levels is an excellent project to practice front-end web development skills. It combines HTML, CSS, and JavaScript to create an interactive and informative tool that can help users manage their stress. This project not only serves as a practical coding exercise but also contributes positively to mental health awareness and self-care.
